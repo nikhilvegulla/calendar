@@ -104,10 +104,10 @@ i:hover{
     cursor: pointer;
 }
 
-.event{
-    /* display: inline-block; */
+/* .event{
+     display: inline-block; no need
     width: 400px;
-    /* height: 468px; */
+     height: 468px; no need
     border: solid black 1px;
     margin: 0px;
     padding: 10px;
@@ -121,4 +121,18 @@ i:hover{
 .event li{
     margin: 10px;
     font-size: 20px;
+} */
+
+@media all and (max-width : 600px)
+{
+    .main{
+        width:300px;
+    }
+}
+
+@media all and (max-width: 900px ) and (min-width:601px)
+{
+    .main{
+        width: 400px;
+    }
 }
